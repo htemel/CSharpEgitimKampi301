@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
-    internal class Category
+    public class Category
     {
         public int CategoryId { get; set; } // Category sınıf adını kullanıp Id yazmalıyız yoksa birincil anahtar olarak algılamaz.
         public string CategoryName { get; set; }
         public bool CategoryStatus { get; set; }
+        public List<Product> Products { get; set; } //Product çoğul olarak elendi
     }
 }
 /*
