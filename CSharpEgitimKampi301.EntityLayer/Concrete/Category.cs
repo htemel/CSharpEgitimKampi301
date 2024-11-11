@@ -1,5 +1,6 @@
 ﻿  using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
     public class Category
     {
+
+        [Key]
         public int CategoryId { get; set; } // Category sınıf adını kullanıp Id yazmalıyız yoksa birincil anahtar olarak algılamaz.
         public string CategoryName { get; set; }
         public bool CategoryStatus { get; set; }
