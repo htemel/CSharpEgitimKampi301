@@ -81,6 +81,9 @@
     <Compile Include="sysdiagrams.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="TblAdmin.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="TblCustomer.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
