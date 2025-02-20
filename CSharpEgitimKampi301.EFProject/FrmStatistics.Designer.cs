@@ -344,9 +344,9 @@
             this.label18.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label18.Location = new System.Drawing.Point(12, 12);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(110, 19);
+            this.label18.Size = new System.Drawing.Size(162, 19);
             this.label18.TabIndex = 1;
-            this.label18.Text = "Lokasyon Sayısı";
+            this.label18.Text = "Ayşegül Çınar Tur Sayısı";
             // 
             // panel10
             // 
