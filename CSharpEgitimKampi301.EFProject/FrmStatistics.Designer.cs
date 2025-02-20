@@ -332,7 +332,7 @@
             // 
             this.lblAysegulCinarLocationCount.AutoSize = true;
             this.lblAysegulCinarLocationCount.Font = new System.Drawing.Font("Calibri", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAysegulCinarLocationCount.Location = new System.Drawing.Point(44, 42);
+            this.lblAysegulCinarLocationCount.Location = new System.Drawing.Point(78, 42);
             this.lblAysegulCinarLocationCount.Name = "lblAysegulCinarLocationCount";
             this.lblAysegulCinarLocationCount.Size = new System.Drawing.Size(34, 27);
             this.lblAysegulCinarLocationCount.TabIndex = 1;
