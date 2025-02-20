@@ -3,5 +3,7 @@ Bunu yaparken renklendirmede https://flatuicolors.com/palette/de sitesinde yer a
 Entity Framework ile alt sorgular oluşturarak veriler çekmemiz, analitik düşüncemizi geliştirmemize katkı sağladı.
 17. Ders sonunda Entity Framework kullanımı pekişmiş ve sorguların nasıl yapıldığı konusunda kendimizi geliştirme imkanı sağladı.
 
-![case3](https://github.com/user-attachments/assets/9672738b-35ed-4491-8492-2e2d7bf12aa0)
+![image](https://github.com/user-attachments/assets/f1cc511e-537f-408e-9a79-51e871b53058)
+
+
 
