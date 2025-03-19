@@ -44,8 +44,8 @@
             this.txtProductPrice = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtDescription = new System.Windows.Forms.TextBox();
-            this.cmbCategory = new System.Windows.Forms.ComboBox();
+            this.txtProductDescription = new System.Windows.Forms.TextBox();
+            this.cmbProductCategory = new System.Windows.Forms.ComboBox();
             this.btnList2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -90,6 +90,7 @@
             this.btnGetById.TabIndex = 22;
             this.btnGetById.Text = "ID\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // btnUpdate
             // 
@@ -99,6 +100,7 @@
             this.btnUpdate.TabIndex = 21;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -118,6 +120,7 @@
             this.btnAdd.TabIndex = 19;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnList
             // 
@@ -188,21 +191,21 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Açıklama:";
             // 
-            // txtDescription
+            // txtProductDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(87, 142);
-            this.txtDescription.Multiline = true;
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(140, 119);
-            this.txtDescription.TabIndex = 15;
+            this.txtProductDescription.Location = new System.Drawing.Point(87, 142);
+            this.txtProductDescription.Multiline = true;
+            this.txtProductDescription.Name = "txtProductDescription";
+            this.txtProductDescription.Size = new System.Drawing.Size(140, 119);
+            this.txtProductDescription.TabIndex = 15;
             // 
-            // cmbCategory
+            // cmbProductCategory
             // 
-            this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.Location = new System.Drawing.Point(87, 114);
-            this.cmbCategory.Name = "cmbCategory";
-            this.cmbCategory.Size = new System.Drawing.Size(140, 21);
-            this.cmbCategory.TabIndex = 24;
+            this.cmbProductCategory.FormattingEnabled = true;
+            this.cmbProductCategory.Location = new System.Drawing.Point(87, 114);
+            this.cmbProductCategory.Name = "cmbProductCategory";
+            this.cmbProductCategory.Size = new System.Drawing.Size(140, 21);
+            this.cmbProductCategory.TabIndex = 24;
             // 
             // btnList2
             // 
@@ -220,9 +223,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(118)))), ((int)(((byte)(163)))));
             this.ClientSize = new System.Drawing.Size(1082, 501);
-            this.Controls.Add(this.cmbCategory);
+            this.Controls.Add(this.cmbProductCategory);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.txtDescription);
+            this.Controls.Add(this.txtProductDescription);
             this.Controls.Add(this.txtProductPrice);
             this.Controls.Add(this.txtProductStock);
             this.Controls.Add(this.txtProductName);
@@ -241,6 +244,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmProduct";
             this.Text = "FrmProduct";
+            this.Load += new System.EventHandler(this.FrmProduct_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -265,8 +269,8 @@
         private System.Windows.Forms.TextBox txtProductPrice;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtDescription;
-        private System.Windows.Forms.ComboBox cmbCategory;
+        private System.Windows.Forms.TextBox txtProductDescription;
+        private System.Windows.Forms.ComboBox cmbProductCategory;
         private System.Windows.Forms.Button btnList2;
     }
 }
