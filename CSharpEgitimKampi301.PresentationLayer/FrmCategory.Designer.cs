@@ -61,6 +61,7 @@
             this.btnList.TabIndex = 4;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = true;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // rdbActive
             // 
@@ -76,6 +77,7 @@
             // rdbPassive
             // 
             this.rdbPassive.AutoSize = true;
+            this.rdbPassive.Checked = true;
             this.rdbPassive.Location = new System.Drawing.Point(179, 78);
             this.rdbPassive.Name = "rdbPassive";
             this.rdbPassive.Size = new System.Drawing.Size(48, 17);
@@ -124,6 +126,7 @@
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDelete
             // 
@@ -133,6 +136,7 @@
             this.btnDelete.TabIndex = 7;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -142,9 +146,11 @@
             this.btnUpdate.TabIndex = 8;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(246, 23);
             this.dataGridView1.Name = "dataGridView1";
@@ -159,6 +165,7 @@
             this.btnGetById.TabIndex = 9;
             this.btnGetById.Text = "ID\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // FrmCategory
             // 
